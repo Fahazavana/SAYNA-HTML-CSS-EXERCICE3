@@ -1,9 +1,53 @@
-#top-logo {
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900);
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+* {
+    border: 1px solid red;
+}
+
+.bg-royalblue {
+    background-image: url("../img/header_bg.jpg")
+}
+
+.bg_gray {
+    background-color: #f9f9f9;
+}
+
+.width-50 {
+    width: 50%;
+    min-width: 100px;
+}
+
+.width-25 {
+    width: 25%;
+    min-width: 100px;
+}
+
+.btn-primary {
+    background-color: #3d9f96;
+    border-color: #3d9f96;
+    border-radius: 2rem;
+    display: inline-block;
+    min-width: 150px;
+}
+
+.text-green {
+    color: #3d9f96;
+}
+
+.sep {
+    height: 0.2vw;
+    background-color: #ababab;
+}
+
+.logoBlanc {
     width: 40%;
 }
 
 #map {
-    background-size: contain;
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-image: url("../img/map_bg.png");
@@ -31,6 +75,18 @@ figure img {
 }
 
 @media screen and (min-width:769px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    .font-ral {
+        font-family: Raleway, Arial, sans-serif
+    }
+    #map {
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
     .phone {
         min-height: 341px;
         background-position: 50% 0;
@@ -53,5 +109,8 @@ figure img {
     }
     figure img {
         width: 95%;
+    }
+    .text-gray {
+        color: #7e7e7e;
     }
 }
