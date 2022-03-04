@@ -4,10 +4,6 @@
     padding-right: 10%;
 }
 
-* {
-    border: 1px solid red;
-}
-
 .bg-royalblue {
     background-image: url("../img/header_bg.jpg")
 }
